@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<TextView 
+    android:id="@+id/text_picked_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>   
+<Button
+    android:id="@+id/button_pick_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_below="@+id/text_picked_time"
+    android:text="@string/clickfortime"/>   
+<TextView 
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignRight="@+id/text_picked_time"
+    android:layout_marginTop="72dp"
+    android:text="@string/timepicker"></TextView>
+</RelativeLayout>

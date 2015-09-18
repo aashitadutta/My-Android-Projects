@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/musictext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="24dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/musictext"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/pause" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pause"
+        android:layout_alignTop="@+id/pause"
+        android:layout_centerHorizontal="true"
+        android:text="@string/resume" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop"
+        android:layout_centerHorizontal="true"
+   
+        android:layout_marginTop="73dp"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resume"
+        android:layout_alignBottom="@+id/resume"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/resume"
+        android:text="@string/stop" />
+
+</RelativeLayout>

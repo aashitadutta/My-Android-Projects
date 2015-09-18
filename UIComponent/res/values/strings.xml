@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIComponent</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter">Enter some text</string>
+    <string name="submit">Submit</string>
+    <string name="showNotification">Show Notification</string>
+    <string name="next">Next</string>
+    <string name="desc">My Pic</string>
+    <string name="CheckBox">Check Box</string>
+    <string name="Back">Back</string>
+    <string name="GetTime">Get Time</string>
+    <string name="clickfortime">Click For Time</string>
+    <string name="timepicker">TimePickerExample</string>
+    <string name="Notification">Notification</string>
+    <string name="Next">Next</string>
+    
+    
+    
+
+</resources>
